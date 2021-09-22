@@ -14,3 +14,13 @@ btns.forEach((btn, i) => {
         lists[i].classList.remove("hidden")
     })
 })
+
+/* btns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        btn.classList.toggle("feature__link_active")
+
+        lists.forEach((list) => {
+            list.classList.toggle("hidden")
+        })
+    })
+}) */

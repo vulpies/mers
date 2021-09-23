@@ -2,10 +2,7 @@ const tabsHandElems = document.querySelectorAll("[data-tabs-handler]")
 // console.log(tabsHandElems, "tabs") получаем обе кнопки с данным классом
 
 const tabsContentElems = document.querySelectorAll("[data-tabs-field]")
-
-const sectionTitle = document.querySelectorAll(".section__title")
-
-console.log(tabsContentElems)
+// console.log(tabsContentElems) все элем-ты с данным аттрибутом
 
 for (let btn of tabsHandElems) {
     btn.addEventListener("click", () => {
